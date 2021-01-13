@@ -1,10 +1,21 @@
 * {
   box-sizing: border-box;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+div.column:nth-child(1) > ul:nth-child(1) > li:nth-child(1) {
+  padding-top: 89px;
+}
+
+.table {
+  margin-left: 110px;
+  margin-top: 48px;
 }
 
 .column {
   float: left;
-  width: 25%;
+  column-width: auto;
 }
 
 /* Clear floats after the columns */
@@ -16,22 +27,31 @@
 /* Style the list */
 .price {
   list-style-type: none;
-  border: 1px solid #eee;
+  /* border: 1px solid #eee; */
   margin: 0;
+  margin-right: 0px;
   padding: 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
+.price {
+  margin-right: 61px;
+}
+
+.price li {
+  padding: 16px;
+}
+
 /* Add shadows on hover */
-/* .price:hover {
+.price:hover {
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-} */
+}
 
 /* Pricing header */
 .price .header {
-  background-color: #111;
-  color: white;
+  /* background-color: rgb(116, 66, 66); */
+  color: rgb(0, 0, 0);
   font-size: 25px;
 }
 
@@ -66,6 +86,10 @@
     width: 100%;
   }
 }
+p {
+  font-family: Arial;
+  font-size: 9px;
+}
 
 /* .column {
   float: left;
@@ -81,4 +105,24 @@
 .dollar:before {
   content: "$";
   font-size: small;
+}
+.btn {
+  border: #b62222;
+  background: #cd7fe8;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 20px;
+  /* text-transform: uppercase; */
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+.btn:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
 }
