@@ -1,5 +1,5 @@
 import "./App.css";
-// import Main from "./components/Main";
+
 import { BiCheckboxSquare } from "react-icons/bi";
 
 function App() {
