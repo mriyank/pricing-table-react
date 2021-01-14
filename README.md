@@ -1,3 +1,9 @@
+# pricing-table-react (frontend)
+
+This is a pricing table template made as a component for a friend's project.
+![preview](https://github.com/mriyank/pricing-table-react/blob/master/assets/preview.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
